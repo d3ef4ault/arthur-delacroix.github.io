@@ -1,13 +1,22 @@
-# Favorites
-个人网络收藏夹
+### 个人网络收藏夹
 
+---
 [代码美化](https://carbon.now.sh/)
 
+---
 #### 模型
 [dalong](http://www.78dm.net/)
+            http://www.78dm.net/make/make.htm 14709053760 LAST_MODIFIED=1470905376 ID=C51EC334-058F-65A7-9FA0-14B37BEA1578>模型制作指南 高达模型-78动漫模型玩具网-高达专区-高达模型
+            http://www.3dzhimo.com/index.php 14709053760 LAST_MODIFIED=1470905376 ID=A9BF1096-CA9D-D675-5B42-15088787BBC2>3D纸模网
+            http://www.bandai-asia.com/newsite/index.php 14709053760 LAST_MODIFIED=1470905376 ID=6CA8C2EC-F9A6-7A35-3B44-CCE07397CA84>Bandai Asia Web
+            http://www.dachong.gz.cn/index.php 14709053760 LAST_MODIFIED=1470905376 ID=582B8206-DAB8-9DB3-DC4A-3228300B59E8>大虫模型论坛
+            http://www.pcgames.com.cn/cartoon/topic/gaoda/ 14709053760 LAST_MODIFIED=1470905376 ID=1EE1D854-B6D0-7361-0516-7EF9AD265872>高达
+            http://www.xiaot.com/vbbs/ 14709053760 LAST_MODIFIED=1470905376 ID=4DABB654-F9A0-1CCC-ADCB-C7AF4ABB60C1>XiaoT模型空间站
+            http://www.dalong.net/ 14709053761551334248 LAST_MODIFIED=1470905376 ID=73D85171-9F84-D087-AEF0-B8ABC5576CED>高达&mdash;模型
 
+---
 #### 素材
-[造字工房](http://www.makefont.com/)
+[造字工房](http://www.makefont.com/)  
 
 #### GAMEs
 [STAR CONFLICT&nbsp;&mdash; MMO SPACE ACTION](http://star-conflict.com/)  
@@ -15,21 +24,20 @@
 [游侠网](http://www.ali213.net/)  
 [游民星空](http://www.gamersky.com/)  
 
+---
 #### 工具
 [Convert Web Page to PDF](http://www.web2pdfconvert.com/)  
 [随手记](https://money.feidee.com/money/)  
-            http://www.foxmail.com/ Foxmail for Windows
-            http://www.xnormal.net/ Normal
-            http://www.evernote.com/ Evernote
+[xNormal](http://www.xnormal.net/)  
+             
             http://www.chineseetymology.org/CharacterEtymology.aspx?characterInput=%E8%BB%8A&submitButton1=Etymology 汉字
-            http://www.teamviewer.com/zhCN/index.aspx TeamViewer
-            http://www.piriform.com/ccleaner CCleaner
             http://xh.5156edu.com/pinyi.html 在线新华字典
             http://studiostyl.es/ Studio Styles
 
+---
 #### 好东西
-            http://www.campomarzio.ca/ Campo Marzio
-            http://www.bodum.com/us/en-us/ BODUM
+
+
             http://copic.jp/ COPIC コピック
             http://www.bmw-motorrad.com.cn/cn/zh/ BMW 摩托车 中国
             http://flapmmo.com/ FlapMMO
@@ -50,26 +58,13 @@
             http://www.smule.com/ 14709053760 LAST_MODIFIED=1470905376 ID=26311FEF-EE8A-F877-6F99-1741B5FC5E9A>Smule - Connecting the world through music.
             http://www.apple.com.cn/ 14709053760 LAST_MODIFIED=1470905376 ID=81205E9B-6F29-AC80-A55A-7BFAADCB751A>Apple
 
-#### 程序开发</H3>
 
-            http://www.ultraedit.cn/ 14709053760 LAST_MODIFIED=1470905376 ID=7F0DC868-FAB7-D3BD-00DC-A52D6F4878A6>UltraEdit中文官方网站 - 文本编辑器
-            http://jquery.com/ 14709053760 LAST_MODIFIED=1470905376 ID=32B2C303-83AB-F5F5-86D7-2C1BF6CCCAB1>jQuery
-            http://www.jjquery.com/ 14709053760 LAST_MODIFIED=1470905376 ID=FD25092F-4F83-B4DF-3EC7-70B3CDFABF6F>Jquery中文网
-            http://bbs.blueidea.com/ 14709053760 LAST_MODIFIED=1470905376 ID=47606562-1F93-2248-902B-CDB65DA04590>设计-编程
-            http://tech.163.com/school.html 14709053760 LAST_MODIFIED=1470905376 ID=EFDD9EBE-0221-CCE5-4FBF-F782861A78F1>网易学院
-        </DL><p>
-        <H3 FOLDED 1470905376 ID=8A75C061-23DB-56AC-4625-6DF216C902C9>模型</H3>
 
-            http://www.78dm.net/make/make.htm 14709053760 LAST_MODIFIED=1470905376 ID=C51EC334-058F-65A7-9FA0-14B37BEA1578>模型制作指南 高达模型-78动漫模型玩具网-高达专区-高达模型
-            http://www.3dzhimo.com/index.php 14709053760 LAST_MODIFIED=1470905376 ID=A9BF1096-CA9D-D675-5B42-15088787BBC2>3D纸模网
-            http://www.bandai-asia.com/newsite/index.php 14709053760 LAST_MODIFIED=1470905376 ID=6CA8C2EC-F9A6-7A35-3B44-CCE07397CA84>Bandai Asia Web
-            http://www.dachong.gz.cn/index.php 14709053760 LAST_MODIFIED=1470905376 ID=582B8206-DAB8-9DB3-DC4A-3228300B59E8>大虫模型论坛
-            http://www.pcgames.com.cn/cartoon/topic/gaoda/ 14709053760 LAST_MODIFIED=1470905376 ID=1EE1D854-B6D0-7361-0516-7EF9AD265872>高达
-            http://www.xiaot.com/vbbs/ 14709053760 LAST_MODIFIED=1470905376 ID=4DABB654-F9A0-1CCC-ADCB-C7AF4ABB60C1>XiaoT模型空间站
-            http://www.dalong.net/ 14709053761551334248 LAST_MODIFIED=1470905376 ID=73D85171-9F84-D087-AEF0-B8ABC5576CED>高达&mdash;模型
-        </DL><p>
+
+
+
         <H3 FOLDED 1470905376 ID=350E5418-4FD6-FF67-C96D-997920E33ED7>枪</H3>
-        <DL><p>
+
             http://www.longquandaojian.net/product-377.html 14709053760 LAST_MODIFIED=1470905376 ID=1C4537E7-9823-D86D-71BA-FA6F99C1FC76>高锰钢日本武士刀
             http://sukebei.nyaa.eu/?page=search&cats=0_0&filter=0&term=%E6%B0%B8%E6%B2%A2%E3%81%BE%E3%81%8A%E3%81%BF 14709053760 LAST_MODIFIED=1470905376 ID=723928F8-592B-0C69-4A9E-17465F497945>永沢まおみ - NyaaTorrents &gt;&gt; Search
             http://www.hanbing5.com/ 14709053760 LAST_MODIFIED=1470905376 ID=C1EB694D-D6A5-721A-6752-27F6D866C2D7>弩
@@ -78,21 +73,17 @@
             http://www.tokyo-marui.co.jp/ 14709053760 LAST_MODIFIED=1470905376 ID=62466634-43F7-137E-D85F-D48194D5B8FA>東京マルイ
             http://uncompany.com/ 14709053760 LAST_MODIFIED=1470905376 ID=5A2FCAC7-B5D7-9B2F-92B5-72BF042636A5>Airsoft Gun Web-Shop - UNCompany - Professional online airsoft gunshop
             http://www.wgcshop.com/ 14709053760 LAST_MODIFIED=1470905376 ID=731F60C0-AD18-C9F4-3361-14669F3E6D18>WGC Shop ( Reliable Airsoft Supplier )
-        </DL><p>
-        <H3 FOLDED 1470905376 ID=D19E82EB-230E-F6BE-1F51-565329C91FD7>素材</H3>
-        <DL><p>
-            http://shareformoney.ro/index.php 14709053760 LAST_MODIFIED=1470905376 ID=45DB7AA8-FB3A-E4B0-D594-9AE6D2FDAD93>GfX3Dro
-            http://www.sucaitianxia.com/# 14709053760 LAST_MODIFIED=1470905376 ID=ADE2A835-A749-4CD6-D2C4-0B7FED719B25>素材天下网
-            http://e.weibo.com/uidesign?ref=http%3A%2F%2Fhuaban.com%2Fpins%2F99176826%2F 14709053760 LAST_MODIFIED=1470905376 ID=87857CA1-CECE-A090-DC9D-53CE86EA4926>优秀网页设计
-            http://hao.uisdc.com/goods/ 14709053760 LAST_MODIFIED=1470905376 ID=0114C5E4-ED97-81B9-C790-5207D232ABCF>SDC设计师网址导航 - 学设计从这里开始！
-            http://themeok.org/ 14709053760 LAST_MODIFIED=1470905376 ID=406B80E0-CFB0-4B2B-6B93-79577DAC3B2E>LIVE GRID
-            http://www.51zxw.net/zt/pmsjssc.htm 14709053760 LAST_MODIFIED=1470905376 ID=92B402BD-D3FB-95CE-78E0-515D97E19ACF>设计师实用尺寸手册_专题_我要自学网
-            http://www.sucaitianxia.com/ 14709053760 LAST_MODIFIED=1470905376 ID=40A5ADB6-1C0A-D3F3-CA7B-B3411E0077A8>素材天下
-            http://zaole.net/?box=HTML5%CA%B5%CF%D6%BF%C9%B1%E0%BC%AD%B1%ED%B8%F1 14709053760 LAST_MODIFIED=1470905376 ID=5A94F971-3FF5-A004-DB1F-F1D1C68592BF>CSS3html5在线测试
-            http://www.newone.org/ 14709053760 LAST_MODIFIED=1470905376 ID=02036DD3-EC9D-1207-094C-3EB0F295E1E2>Template
-            http://www.weidea.net/ 14709053760 LAST_MODIFIED=1470905376 ID=4FCDAC2A-937D-F9AD-4E07-33E468FD0E28>HTML网站模板
-            http://www.jeasyui.com/ 14709053760 LAST_MODIFIED=1470905376 ID=68CB90FA-E38E-1F5D-522E-2E22C70C1C68>jQuery EasyUI
-            http://themeforest.net/category/site-templates/admin-templates?page=2 14709053760 LAST_MODIFIED=1470905376 ID=208D54EC-2919-AA37-D951-A8FD5D47F116>Admin Templates
+
+#### 素材
+[CSS3html5在线测试](http://zaole.net/?box=HTML5%CA%B5%CF%D6%BF%C9%B1%E0%BC%AD%B1%ED%B8%F1)  
+            http://e.weibo.com/uidesign?ref=http%3A%2F%2Fhuaban.com%2Fpins%2F99176826%2F 优秀网页设计
+            http://hao.uisdc.com/goods/ SDC设计师网址导航
+            http://themeok.org/ LIVE GRID
+            http://www.sucaitianxia.com/ 素材天下
+             
+            http://www.newone.org/ Template
+            http://www.weidea.net/ HTML网站模板
+            http://themeforest.net/category/site-templates/admin-templates?page=2 Admin Templates
             http://www.bestgfx.biz/site-templates/ 14709053760 LAST_MODIFIED=1470905376 ID=D701DDBD-6D99-7E4C-3599-C34D4084CCC1>HTML/CSS Templates
             http://www.hongkiat.com/blog/ 14709053760 LAST_MODIFIED=1470905376 ID=EFE37FC2-50EB-366A-347C-00E39EEA8BD9>桌面
             http://font.knowsky.com/ 14709053760 LAST_MODIFIED=1470905376 ID=2084AA80-1EA0-ABC6-4BE7-9E9D73A6C01A>字体下载大宝库
