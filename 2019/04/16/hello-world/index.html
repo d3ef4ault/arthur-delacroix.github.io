@@ -8,7 +8,6 @@
 
 
     <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="ccccccc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://arthur-delacroix.github.io/2019/04/16/hello-world/index.html">
@@ -16,7 +15,7 @@
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://arthur-delacroix.github.io/images/og_image.png">
-<meta property="og:updated_time" content="2019-04-16T15:28:17.993Z">
+<meta property="og:updated_time" content="2019-04-18T17:52:53.854Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -151,7 +150,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    a minute read (About 121 words)
+                    2 minutes read (About 300 words)
                 </span>
                 
                 
@@ -166,6 +165,7 @@
         <div class="content">
             <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">public class Reflection_Script : MonoBehaviour</span><br><span class="line">&#123;</span><br><span class="line">	void Start()</span><br><span class="line">	&#123;</span><br><span class="line">		//每一个类对应一个Type对象,存储了当前类中有哪些成员</span><br><span class="line">		MyClass my = new MyClass();</span><br><span class="line"></span><br><span class="line">		//Type本身是一个抽象类，不能被实例化</span><br><span class="line">		Type t = my.GetType();</span><br><span class="line"></span><br><span class="line">		//Debug.Log(t.Name);//获取类名</span><br><span class="line"></span><br><span class="line">		//Debug.Log(t.Namespace);//获取命名空间</span><br><span class="line"></span><br><span class="line">		//Debug.Log(t.Assembly);//获取程序集</span><br><span class="line"></span><br><span class="line">		//只能获取到 public 修饰的字段</span><br><span class="line">		FieldInfo[] f_Array = t.GetFields();</span><br><span class="line">		//foreach (var item in f_Array)</span><br><span class="line">		//&#123;</span><br><span class="line">		//	Debug.Log(item.Name);</span><br><span class="line">		//&#125;</span><br><span class="line"></span><br><span class="line">		//获取 public 修饰的属性</span><br><span class="line">		PropertyInfo[] p_Array = t.GetProperties();</span><br><span class="line">		//foreach (var item in p_Array)</span><br><span class="line">		//&#123;</span><br><span class="line">		//	Debug.Log(item.Name);</span><br><span class="line">		//&#125;</span><br><span class="line"></span><br><span class="line">		//获取 public 修饰的方法</span><br><span class="line">		MethodInfo[] m_Array = t.GetMethods();</span><br><span class="line">		//foreach (var item in m_Array)</span><br><span class="line">		//&#123;</span><br><span class="line">		//	Debug.Log(item.Name);</span><br><span class="line">		//&#125;</span><br><span class="line"></span><br><span class="line">		//通过类的Type对象 获取到类所在的程序集</span><br><span class="line">		Assembly assem = my.GetType().Assembly;</span><br><span class="line"></span><br><span class="line">		Debug.Log(assem.FullName);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
@@ -219,6 +219,20 @@
 
 
 
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/04/18/生成的第一篇博客/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">生成的第一篇博客</span>
+            </a>
+        </div>
+        
+        
+    </div>
+</div>
+
 
 </div>
                 
@@ -260,17 +274,17 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Entrada
+                        Posts
                     </p>
                     <p class="title has-text-weight-normal">
-                        1
+                        2
                     </p>
                 </div>
             </div>
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Categorias
+                        Categories
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -280,7 +294,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Etiquetas
+                        Tags
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -290,7 +304,7 @@
         </nav>
         <div class="level">
             <a class="level-item button is-link is-rounded" href="http://github.com/ppoffice" target="_blank">
-                SEGUIR</a>
+                Follow</a>
         </div>
         
         
@@ -377,7 +391,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Categorias
+                Categories
             </h3>
             <ul class="menu-list">
             
@@ -395,8 +409,27 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recientes
+            Recent
         </h3>
+        
+        <article class="media">
+            
+            <a href="/2019/04/18/生成的第一篇博客/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="生成的第一篇博客">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-04-18T15:19:53.000Z">2019-04-18</time></div>
+                    <a href="/2019/04/18/生成的第一篇博客/" class="has-link-black-ter is-size-6">生成的第一篇博客</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
@@ -425,7 +458,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archivos
+            Archives
         </h3>
         <ul class="menu-list">
         
@@ -435,7 +468,7 @@
                     <span class="level-item">April 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">1</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -449,7 +482,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Etiquetas
+                Tags
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -473,8 +506,27 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recientes
+            Recent
         </h3>
+        
+        <article class="media">
+            
+            <a href="/2019/04/18/生成的第一篇博客/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="生成的第一篇博客">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-04-18T15:19:53.000Z">2019-04-18</time></div>
+                    <a href="/2019/04/18/生成的第一篇博客/" class="has-link-black-ter is-size-6">生成的第一篇博客</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
@@ -503,7 +555,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archivos
+            Archives
         </h3>
         <ul class="menu-list">
         
@@ -513,7 +565,7 @@
                     <span class="level-item">April 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">1</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -527,7 +579,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Etiquetas
+                Tags
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -706,10 +758,10 @@ document.addEventListener('DOMContentLoaded', function () {
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Entradas',
+                POSTS: 'Posts',
                 PAGES: 'Pages',
-                CATEGORIES: 'Categorias',
-                TAGS: 'Etiquetas',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
                 UNTITLED: '(Untitled)',
             },
             CONTENT_URL: '/content.json',
