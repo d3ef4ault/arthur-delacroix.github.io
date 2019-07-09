@@ -2,23 +2,24 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>Unity HDRP 组件翻译备忘 - Hexo</title>
+<title>Unity HDRP 组件翻译备忘 - Arthur&#39;s Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="原文  Volume  Is Global：勾选后Volume变为全局形式，影响整个场景。[1] Blend Distance：当Is Global未勾选时会显示此项。可以设置一个混合区域，该区域为从一个Volume到当前Volum时，各项数值渐变的一个区域。[2] Weight：混合程度，Camera进入到当前区域后，最终的混合结果。[3] Priority：当两个Volume重叠时，根据此项">
+    <meta name="description" content="官方文档  Volume  Is Global：勾选后Volume变为全局形式，影响整个场景。[1] Blend Distance：当Is Global未勾选时会显示此项。可以设置一个混合区域，该区域为从一个Volume到当前Volum时，各项数值渐变的一个区域。[2] Weight：混合程度，Camera进入到当前区域后，最终的混合结果。[3] Priority：当两个Volume重叠时，根据">
+<meta name="keywords" content="Unity 3D,Render,HDRP">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Unity HDRP 组件翻译备忘">
 <meta property="og:url" content="https://arthur-delacroix.github.io/2019/05/07/Unity_HDRP_Volume/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="原文  Volume  Is Global：勾选后Volume变为全局形式，影响整个场景。[1] Blend Distance：当Is Global未勾选时会显示此项。可以设置一个混合区域，该区域为从一个Volume到当前Volum时，各项数值渐变的一个区域。[2] Weight：混合程度，Camera进入到当前区域后，最终的混合结果。[3] Priority：当两个Volume重叠时，根据此项">
+<meta property="og:site_name" content="Arthur&#39;s Blog">
+<meta property="og:description" content="官方文档  Volume  Is Global：勾选后Volume变为全局形式，影响整个场景。[1] Blend Distance：当Is Global未勾选时会显示此项。可以设置一个混合区域，该区域为从一个Volume到当前Volum时，各项数值渐变的一个区域。[2] Weight：混合程度，Camera进入到当前区域后，最终的混合结果。[3] Priority：当两个Volume重叠时，根据">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://arthur-delacroix.github.io/images/og_image.png">
-<meta property="og:updated_time" content="2019-07-08T17:31:27.652Z">
+<meta property="og:updated_time" content="2019-07-09T15:21:39.784Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Unity HDRP 组件翻译备忘">
-<meta name="twitter:description" content="原文  Volume  Is Global：勾选后Volume变为全局形式，影响整个场景。[1] Blend Distance：当Is Global未勾选时会显示此项。可以设置一个混合区域，该区域为从一个Volume到当前Volum时，各项数值渐变的一个区域。[2] Weight：混合程度，Camera进入到当前区域后，最终的混合结果。[3] Priority：当两个Volume重叠时，根据此项">
+<meta name="twitter:description" content="官方文档  Volume  Is Global：勾选后Volume变为全局形式，影响整个场景。[1] Blend Distance：当Is Global未勾选时会显示此项。可以设置一个混合区域，该区域为从一个Volume到当前Volum时，各项数值渐变的一个区域。[2] Weight：混合程度，Camera进入到当前区域后，最终的混合结果。[3] Priority：当两个Volume重叠时，根据">
 <meta name="twitter:image" content="https://arthur-delacroix.github.io/images/og_image.png">
 
 
@@ -115,15 +116,6 @@
             
             <div class="navbar-end">
                 
-                    
-                    
-                    <a class="navbar-item" target="_blank" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
-                        
-                        <i class="fab fa-github"></i>
-                        
-                    </a>
-                    
-                
                 
                 
                 <a class="navbar-item search" title="Search" href="javascript:;">
@@ -146,11 +138,15 @@
             <div class="level-left">
                 <time class="level-item has-text-grey" datetime="2019-05-07T00:35:07.000Z">2019-05-07</time>
                 
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/Unity-3D/">Unity 3D</a>
+                </div>
+                
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    7 minutes read (About 1073 words)
+                    7 minutes read (About 1077 words)
                 </span>
                 
                 
@@ -164,7 +160,7 @@
         </h1>
         <div class="content">
             <blockquote>
-<p><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Volumes.html" target="_blank" rel="noopener">原文</a></p>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Volumes.html" target="_blank" rel="noopener">官方文档</a></p>
 </blockquote>
 <h3 id="Volume"><a href="#Volume" class="headerlink" title="Volume"></a>Volume</h3><p><img src="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Images/Volumes1.png" alt="image"></p>
 <ul>
@@ -177,7 +173,7 @@
 <p>[1] 当Is Global未勾选时，需要在当前Volume所在物体上挂载Box Collider组件，并且勾选Box Collider组件的Is Trigger。<br>[2] 混合区域是从Collider外侧边缘开始计算。例如Collider为4，Blend Distance为5，混合区域位置就是4到9。<br>[3] 混合程度是 摄像机距离和混合距离 运算结果后，再乘以混合程度数值最终所得的结果。例如，当前Volume区域设置亮度为100，混合程度为0.5，在该Volume中最终亮度为50，当进入混合区域时，所有渐变的数值也会乘以0.5。</p>
 <hr>
 <blockquote>
-<p><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Override-Visual-Environment.html" target="_blank" rel="noopener">原文</a></p>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Override-Visual-Environment.html" target="_blank" rel="noopener">官方文档</a></p>
 </blockquote>
 <h3 id="Visual-Environment"><a href="#Visual-Environment" class="headerlink" title="Visual Environment"></a>Visual Environment</h3><p><img src="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@6.7/manual/Images/Override-VisualEnvironment1.png" alt="image"></p>
 <p>该模块主要控制天空和与雾效。</p>
@@ -211,6 +207,15 @@
 
         </div>
         
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/HDRP/">HDRP</a>, <a class="has-link-grey -link" href="/tags/Render/">Render</a>, <a class="has-link-grey -link" href="/tags/Unity-3D/">Unity 3D</a>
+                </div>
+            </div>
+        </div>
+        
         
         
     </div>
@@ -223,31 +228,6 @@
         <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
         <div class="buttons is-centered">
             
-                
-<div class="notification is-danger">
-    You forgot to set the <code>qrcode</code> for Alipay. Please set it in <code>_config.yml</code>.
-</div>
-
-                
-                
-<div class="notification is-danger">
-    You forgot to set the <code>qrcode</code> for Wechat. Please set it in <code>_config.yml</code>.
-</div>
-
-                
-                <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
-
-<div class="notification is-danger">
-    You forgot to set the <code>business</code> and <code>currency_code</code> for Paypal. Please set it in <code>_config.yml</code>.
-</div>
-
-                
-                
-<div class="notification is-danger">
-    You forgot to set the <code>url</code> Patreon. Please set it in <code>_config.yml</code>.
-</div>
-
-                
         </div>
     </div>
 </div>
@@ -284,22 +264,22 @@
             <div class="level-item has-text-centered">
                 <div>
                     
-                        <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="Your name">
+                        <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="Arthur Delacroix">
                     
                     
                     <p class="is-size-4 is-block">
-                        Your name
+                        Arthur Delacroix
                     </p>
                     
                     
                     <p class="is-size-6 is-block">
-                        Your title
+                        一只程序猿的博客
                     </p>
                     
                     
                     <p class="is-size-6 is-flex is-flex-center has-text-grey">
                         <i class="fas fa-map-marker-alt has-mr-7"></i>
-                        <span>Your location</span>
+                        <span>Earth</span>
                     </p>
                     
                 </div>
@@ -309,7 +289,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Entradas
+                        Posts
                     </p>
                     <p class="title has-text-weight-normal">
                         2
@@ -319,59 +299,35 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Categorias
+                        Categories
                     </p>
                     <p class="title has-text-weight-normal">
-                        0
+                        2
                     </p>
                 </div>
             </div>
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Etiquetas
+                        Tags
                     </p>
                     <p class="title has-text-weight-normal">
-                        0
+                        3
                     </p>
                 </div>
             </div>
         </nav>
         <div class="level">
-            <a class="level-item button is-link is-rounded" href="https://github.com/ppoffice" target="_blank">
-                SEGUIR</a>
+            <a class="level-item button is-link is-rounded" href="https://github.com/Arthur-Delacroix" target="_blank">
+                Follow</a>
         </div>
         
         
         <div class="level is-mobile">
             
-            <a class="level-item button is-white is-marginless" target="_blank" title="Github" href="https://github.com/ppoffice">
+            <a class="level-item button is-white is-marginless" target="_blank" title="Github" href="https://github.com/Arthur-Delacroix">
                 
                 <i class="fab fa-github"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Facebook" href="https://facebook.com">
-                
-                <i class="fab fa-facebook"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Twitter" href="https://twitter.com">
-                
-                <i class="fab fa-twitter"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Dribbble" href="https://dribbble.com">
-                
-                <i class="fab fa-dribbble"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="RSS" href="/">
-                
-                <i class="fas fa-rss"></i>
                 
             </a>
             
@@ -404,9 +360,9 @@
             </li>
         
             <li>
-                <a class="level is-mobile" href="https://github.com/ppoffice" target="_blank">
+                <a class="level is-mobile" href="https://github.com/Arthur-Delacroix" target="_blank">
                     <span class="level-left">
-                        <span class="level-item">PPOffice</span>
+                        <span class="level-item">My Github</span>
                     </span>
                     <span class="level-right">
                         <span class="level-item tag">github.com</span>
@@ -426,16 +382,41 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Categorias
+                Categories
             </h3>
             <ul class="menu-list">
-            
+            <li>
+        <a class="level is-marginless" href="/categories/Hexo/">
+            <span class="level-start">
+                <span class="level-item">Hexo</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/Unity-3D/">
+            <span class="level-start">
+                <span class="level-item">Unity 3D</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li>
             </ul>
         </div>
     </div>
 </div>
     
         
+<div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            Tag Cloud
+        </h3>
+        <a href="/tags/HDRP/" style="font-size: 10px;">HDRP</a> <a href="/tags/Render/" style="font-size: 10px;">Render</a> <a href="/tags/Unity-3D/" style="font-size: 10px;">Unity 3D</a>
+    </div>
+</div>
+
     
     
         <div class="column-right-shadow is-hidden-widescreen ">
@@ -444,7 +425,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recientes
+            Recent
         </h3>
         
         <article class="media">
@@ -460,7 +441,7 @@
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-07T00:35:07.000Z">2019-05-07</time></div>
                     <a href="/2019/05/07/Unity_HDRP_Volume/" class="has-link-black-ter is-size-6">Unity HDRP 组件翻译备忘</a>
                     <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/categories/Unity-3D/">Unity 3D</a>
                     </p>
                 </div>
             </div>
@@ -479,7 +460,7 @@
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-01T04:46:25.000Z">2019-01-01</time></div>
                     <a href="/2019/01/01/hello-world/" class="has-link-black-ter is-size-6">Hello World!</a>
                     <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/categories/Hexo/">Hexo</a>
                     </p>
                 </div>
             </div>
@@ -493,7 +474,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archivos
+            Archives
         </h3>
         <ul class="menu-list">
         
@@ -528,9 +509,30 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Etiquetas
+                Tags
             </h3>
             <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/HDRP/">
+                        <span class="tag">HDRP</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Render/">
+                        <span class="tag">Render</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Unity-3D/">
+                        <span class="tag">Unity 3D</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
                 
             </div>
         </div>
@@ -552,7 +554,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recientes
+            Recent
         </h3>
         
         <article class="media">
@@ -568,7 +570,7 @@
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-07T00:35:07.000Z">2019-05-07</time></div>
                     <a href="/2019/05/07/Unity_HDRP_Volume/" class="has-link-black-ter is-size-6">Unity HDRP 组件翻译备忘</a>
                     <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/categories/Unity-3D/">Unity 3D</a>
                     </p>
                 </div>
             </div>
@@ -587,7 +589,7 @@
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-01T04:46:25.000Z">2019-01-01</time></div>
                     <a href="/2019/01/01/hello-world/" class="has-link-black-ter is-size-6">Hello World!</a>
                     <p class="is-size-7 is-uppercase">
-                        
+                        <a class="has-link-grey -link" href="/categories/Hexo/">Hexo</a>
                     </p>
                 </div>
             </div>
@@ -601,7 +603,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archivos
+            Archives
         </h3>
         <ul class="menu-list">
         
@@ -636,9 +638,30 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Etiquetas
+                Tags
             </h3>
             <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/HDRP/">
+                        <span class="tag">HDRP</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Render/">
+                        <span class="tag">Render</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Unity-3D/">
+                        <span class="tag">Unity 3D</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
                 
             </div>
         </div>
@@ -661,41 +684,12 @@
                 
                 </a>
                 <p class="is-size-7">
-                &copy; 2019 John Doe&nbsp;
+                &copy; 2019 Arthur Delacroix&nbsp;
                 Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
                 
                 </p>
             </div>
             <div class="level-end">
-            
-                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
-                
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/">
-                        
-                        <i class="fab fa-creative-commons"></i>
-                        
-                    </a>
-                </p>
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
-                        
-                        <i class="fab fa-creative-commons-by"></i>
-                        
-                    </a>
-                </p>
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
-                        
-                        <i class="fab fa-github"></i>
-                        
-                    </a>
-                </p>
-                
-                </div>
             
             </div>
         </div>
@@ -815,10 +809,10 @@ document.addEventListener('DOMContentLoaded', function () {
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Entradas',
+                POSTS: 'Posts',
                 PAGES: 'Pages',
-                CATEGORIES: 'Categorias',
-                TAGS: 'Etiquetas',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
                 UNTITLED: '(Untitled)',
             },
             CONTENT_URL: '/content.json',
