@@ -468,7 +468,19 @@ figure.highlight:hover .copy {
   display: block;
 }
 /* ---------------------------------
- *        Fix Video
+ *          Overflow Table
+ * --------------------------------- */
+.table-overflow {
+  overflow-x: auto;
+}
+.table-overflow table {
+  width: auto !important;
+}
+.table-overflow table th {
+  word-break: keep-all;
+}
+/* ---------------------------------
+ *            Fix Video
  * --------------------------------- */
 .video-container {
   position: relative;
